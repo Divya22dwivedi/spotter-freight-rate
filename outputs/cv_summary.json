@@ -1,0 +1,78 @@
+{
+  "A_time_clean": {
+    "LightGBM, no trend term": {
+      "MAE": 52.68,
+      "MAPE": 2.43,
+      "RMSE": 75.3,
+      "MdAPE": 1.95
+    },
+    "Trend + LightGBM (final)": {
+      "MAE": 49.38,
+      "MAPE": 2.24,
+      "RMSE": 71.35,
+      "MdAPE": 1.78
+    },
+    "baseline (bin median)": {
+      "MAE": 82.94,
+      "MAPE": 3.76,
+      "RMSE": 113.88,
+      "MdAPE": 3.21
+    }
+  },
+  "A_time_all": {
+    "LightGBM, no trend term": {
+      "MAE": 106.49,
+      "MAPE": 4.8,
+      "RMSE": 627.39,
+      "MdAPE": 1.99
+    },
+    "Trend + LightGBM (final)": {
+      "MAE": 103.18,
+      "MAPE": 4.62,
+      "RMSE": 625.82,
+      "MdAPE": 1.81
+    },
+    "baseline (bin median)": {
+      "MAE": 136.51,
+      "MAPE": 6.14,
+      "RMSE": 634.2,
+      "MdAPE": 3.27
+    }
+  },
+  "B_unseen_city": {
+    "seen cities": {
+      "MAE": 41.56,
+      "MAPE": 1.72,
+      "RMSE": 58.99,
+      "MdAPE": 1.53
+    },
+    "unseen cities": {
+      "MAE": 39.46,
+      "MAPE": 1.79,
+      "RMSE": 54.94,
+      "MdAPE": 1.58
+    }
+  },
+  "A_by_fold_MAPE_clean": {
+    "7": {
+      "LightGBM, no trend term": 1.26,
+      "Trend + LightGBM (final)": 1.64,
+      "baseline (bin median)": 4.01
+    },
+    "8": {
+      "LightGBM, no trend term": 4.8,
+      "Trend + LightGBM (final)": 4.3,
+      "baseline (bin median)": 3.66
+    },
+    "9": {
+      "LightGBM, no trend term": 1.6,
+      "Trend + LightGBM (final)": 1.67,
+      "baseline (bin median)": 3.68
+    },
+    "10": {
+      "LightGBM, no trend term": 2.07,
+      "Trend + LightGBM (final)": 1.36,
+      "baseline (bin median)": 3.68
+    }
+  }
+}
